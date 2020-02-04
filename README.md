@@ -33,6 +33,7 @@ Index
 	* [YugabyteDB](https://github.com/yugabyte/yugabyte-db) YugabyteDB is a high-performance, cloud-native distributed SQL database.
 
 # Analytic Databases / Datawarehouse
+- OLAP & MPP 
 	* [GreenPlum](https://github.com/greenplum-db/gpdb) The Greenplum Database (GPDB) is an advanced, fully featured, open source data warehouse. It provides powerful and rapid analytics on petabyte scale data volumes.
 	* [Snappydata](https://github.com/SnappyDataInc/snappydata) SnappyData: OLTP + OLAP Database built on Apache Spark
 	* [Hawk](http://hawq.apache.org/) Apache Hadoop Native SQL. Advanced, MPP, elastic query engine and analytic database for enterprises.
@@ -158,6 +159,7 @@ Index
 	* [Drill](https://drill.apache.org/) Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage.
 
 # Stream Processing
+- 
 	* [Apache Beam](https://beam.apache.org/) Apache Beam is a unified programming model that implements both batch and streaming data processing jobs that run on many execution engines.
 	* [Spark Streaming](https://spark.apache.org/streaming/) Spark Streaming makes it easy to build scalable fault-tolerant streaming applications.
 	* [Apache Flink](https://flink.apache.org/) Apache Flink is a streaming dataflow engine that provides data distribution, communication, and fault tolerance for distributed computations over data streams.
