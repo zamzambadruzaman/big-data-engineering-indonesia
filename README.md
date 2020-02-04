@@ -1,6 +1,6 @@
-# data-engineering-indonesia
+# big-data-engineering-indonesia
 
-Daftar tools, sumber bacaan dan komunitas Data Engineering Indonesia
+A curated list of big data engineering tools, resources and communities.
 
 Index
 
