@@ -26,7 +26,6 @@ Index
 	* [mysql_utils](https://github.com/pinterest/mysql_utils) Pinterest MySQL Management Tools
 * [MariaDB](https://mariadb.org/) An enhanced, drop-in replacement for MySQL.
 * [PostgreSQL](https://www.postgresql.org/) The world's most advanced open source database.
-* [Amazon RDS](https://aws.amazon.com/rds/) Amazon RDS makes it easy to set up, operate, and scale a relational database in the cloud.
 * [Crate.IO](https://crate.io/) Scalable SQL database with the NOSQL goodies.
 * [CockroachDB](https://github.com/cockroachdb/cockroach) CockroachDB is a cloud-native SQL database for building global, scalable cloud services that survive disasters.
 * [YugabyteDB](https://github.com/yugabyte/yugabyte-db) YugabyteDB is a high-performance, cloud-native distributed SQL database.
@@ -46,7 +45,6 @@ Index
 - Key-Value
 	* [Redis](https://redis.io/) An open source, BSD licensed, advanced key-value cache and store.
 	* [Riak](http://docs.basho.com/riak/kv/) A distributed database designed to deliver maximum data availability by distributing data across multiple servers.
-	* [AWS DynamoDB](https://aws.amazon.com/dynamodb/) A fast and flexible NoSQL database service for all applications that need consistent, single-digit millisecond latency at any scale.
 	* [HyperDex](https://github.com/rescrv/HyperDex) HyperDex is a scalable, searchable key-value store. Deprecated.
 	* [SSDB](http://ssdb.io) A high performance NoSQL database supporting many data structures, an alternative to Redis
 	* [Kyoto Tycoon](https://github.com/alticelabs/kyoto) Kyoto Tycoon is a lightweight network server on top of the Kyoto Cabinet key-value database, built for high-performance and concurrency
@@ -57,9 +55,7 @@ Index
 		* [CCM](https://github.com/pcmanus/ccm) A script to easily create and destroy an Apache Cassandra cluster on localhost
 		* [ScyllaDB](https://github.com/scylladb/scylla) NoSQL data store using the seastar framework, compatible with Apache Cassandra https://www.scylladb.com/
 	* [HBase](https://hbase.apache.org/) The Hadoop database, a distributed, scalable, big data store.
-	* [AWS Redshift](https://aws.amazon.com/redshift/) A fast, fully managed, petabyte-scale data warehouse that makes it simple and cost-effective to analyze all your data using your existing business intelligence tools.
 	* [FiloDB](https://github.com/filodb/FiloDB) Distributed. Columnar. Versioned. Streaming. SQL.
-	* [Vertica](https://www.vertica.com) Distributed, MPP columnar database with extensive analytics SQL.
 - Document
 	* [MongoDB](https://www.mongodb.com) An open-source, document database designed for ease of development and scaling.
 		* [Percona Server for MongoDB](https://www.percona.com/software/mongo-database/percona-server-for-mongodb) Percona Server for MongoDB® is a free, enhanced, fully compatible, open source, drop-in replacement for the MongoDB® Community Edition that includes enterprise-grade features and functionality.
@@ -85,7 +81,6 @@ Index
 	* [kairosdb](https://github.com/kairosdb/kairosdb) Fast scalable time series database.
 	* [Heroic](https://github.com/spotify/heroic) A scalable time series database based on Cassandra and Elasticsearch, by Spotify
 	* [Druid](https://github.com/apache/incubator-druid) Column oriented distributed data store ideal for powering interactive applications
-	* [Riak-TS](http://basho.com/products/riak-ts/) Riak TS is the only enterprise-grade NoSQL time series database optimized specifically for IoT and Time Series data
 	* [Akumuli](https://github.com/akumuli/Akumuli) Akumuli is a numeric time-series database. It can be used to capture, store and process time-series data in real-time. The word "akumuli" can be translated from esperanto as "accumulate".
 	* [Rhombus](https://github.com/Pardot/Rhombus) A time-series object store for Cassandra that handles all the complexity of building wide row indexes.
 	* [Dalmatiner DB](https://github.com/dalmatinerdb/dalmatinerdb) Fast distributed metrics database
@@ -106,7 +101,6 @@ Index
 	* [kafka-node](https://github.com/SOHU-Co/kafka-node) Node.js client for Apache Kafka 0.8
 	* [Secor](https://github.com/pinterest/secor) Pinterest's Kafka to S3 distributed consumer
 	* [Kafka-logger](https://github.com/uber/kafka-logger) Kafka-winston logger for nodejs from uber
-* [AWS Kinesis](https://aws.amazon.com/kinesis/) A fully managed, cloud-based service for real-time data processing over large, distributed data streams.
 * [RabbitMQ](https://www.rabbitmq.com/) Robust messaging for applications.
 * [FluentD](https://www.fluentd.org) An open source data collector for unified logging layer.
 * [Embulk](https://www.embulk.org) An open source bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services.
@@ -116,7 +110,6 @@ Index
 * [Nakadi](https://nakadi.io) Nakadi is an open source event messaging platform that provides a REST API on top of Kafka-like queues.
 * [Pravega](http://www.pravega.io) Pravega provides a new storage abstraction - a stream - for continuous and unbounded data.
 * [Apache Pulsar](https://pulsar.apache.org/) Apache Pulsar is an open-source distributed pub-sub messaging system.
-* [AWS Data Wranlger](https://github.com/awslabs/aws-data-wrangler) Utility belt to handle data on AWS.
 
 # File System
 * [HDFS](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html)
@@ -140,7 +133,6 @@ Index
 	* [Deep Spark](https://github.com/Stratio/deep-spark) Connecting Apache Spark with different data stores. Deprecated.
 	* [Spark RDD API Examples](http://homepage.cs.latrobe.edu.au/zhe/ZhenHeSparkRDDAPIExamples.html) by Zhen He
 	* [Livy](https://livy.incubator.apache.org) Livy, the REST Spark Server
-* [AWS EMR](https://aws.amazon.com/emr/) A web service that makes it easy to quickly and cost-effectively process vast amounts of data.
 * [Tez](https://tez.apache.org/) An application framework which allows for a complex directed-acyclic-graph of tasks for processing data.
 * [Bistro](https://github.com/asavinov/bistro) is a light-weight engine for general-purpose data processing including both batch and stream analytics. It is based on a novel unique data model, which represents data via *functions* and processes data via *columns operations* as opposed to having only set operations in conventional approaches like MapReduce or SQL.
 - Batch ML
