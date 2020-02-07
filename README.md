@@ -40,6 +40,7 @@ Index
 	* [Clickhouse](https://github.com/ClickHouse/ClickHouse) ClickHouse is an open-source column-oriented database management system that allows generating analytical data reports in real time.
 	* [Hive](https://hive.apache.org) Data warehouse software facilitates querying and managing large datasets residing in distributed storage.
 	* [Kylin](http://kylin.apache.org/) An open source distributed analytical engine designed to provide OLAP (Online Analytical Processing) capability in the big data era
+	* [Pinot](https://pinot.apache.org/) Pinot is a realtime distributed OLAP datastore, which is used at LinkedIn to deliver scalable real time analytics with low latency
 
 
 # NoSQL Databases
