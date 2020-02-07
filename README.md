@@ -19,28 +19,26 @@ Index
 13. [Community](#community)
 
 # Transactional Databases
-- Relational
-	* [RQLite](https://github.com/rqlite/rqlite) Replicated SQLite using the Raft consensus protocol
-	* [MySQL](https://www.mysql.com/) The world's most popular open source database.
-		* [TiDB](https://github.com/pingcap/tidb) TiDB is a distributed NewSQL database compatible with MySQL protocol
-		* [Percona XtraBackup](https://www.percona.com/software/mysql-database/percona-xtrabackup) Percona XtraBackup is a free, open source, complete online backup solution for all versions of Percona Server, MySQL® and MariaDB®
-		* [mysql_utils](https://github.com/pinterest/mysql_utils) Pinterest MySQL Management Tools
-	* [MariaDB](https://mariadb.org/) An enhanced, drop-in replacement for MySQL.
-	* [PostgreSQL](https://www.postgresql.org/) The world's most advanced open source database.
-	* [Amazon RDS](https://aws.amazon.com/rds/) Amazon RDS makes it easy to set up, operate, and scale a relational database in the cloud.
-	* [Crate.IO](https://crate.io/) Scalable SQL database with the NOSQL goodies.
-	* [CockroachDB](https://github.com/cockroachdb/cockroach) CockroachDB is a cloud-native SQL database for building global, scalable cloud services that survive disasters.
-	* [YugabyteDB](https://github.com/yugabyte/yugabyte-db) YugabyteDB is a high-performance, cloud-native distributed SQL database.
+* [RQLite](https://github.com/rqlite/rqlite) Replicated SQLite using the Raft consensus protocol
+* [MySQL](https://www.mysql.com/) The world's most popular open source database.
+	* [TiDB](https://github.com/pingcap/tidb) TiDB is a distributed NewSQL database compatible with MySQL protocol
+	* [Percona XtraBackup](https://www.percona.com/software/mysql-database/percona-xtrabackup) Percona XtraBackup is a free, open source, complete online backup solution for all versions of Percona Server, MySQL® and MariaDB®
+	* [mysql_utils](https://github.com/pinterest/mysql_utils) Pinterest MySQL Management Tools
+* [MariaDB](https://mariadb.org/) An enhanced, drop-in replacement for MySQL.
+* [PostgreSQL](https://www.postgresql.org/) The world's most advanced open source database.
+* [Amazon RDS](https://aws.amazon.com/rds/) Amazon RDS makes it easy to set up, operate, and scale a relational database in the cloud.
+* [Crate.IO](https://crate.io/) Scalable SQL database with the NOSQL goodies.
+* [CockroachDB](https://github.com/cockroachdb/cockroach) CockroachDB is a cloud-native SQL database for building global, scalable cloud services that survive disasters.
+* [YugabyteDB](https://github.com/yugabyte/yugabyte-db) YugabyteDB is a high-performance, cloud-native distributed SQL database.
 
 # Analytic Databases / Datawarehouse
-- OLAP & MPP 
-	* [GreenPlum](https://github.com/greenplum-db/gpdb) The Greenplum Database (GPDB) is an advanced, fully featured, open source data warehouse. It provides powerful and rapid analytics on petabyte scale data volumes.
-	* [Snappydata](https://github.com/SnappyDataInc/snappydata) SnappyData: OLTP + OLAP Database built on Apache Spark
-	* [Hawk](http://hawq.apache.org/) Apache Hadoop Native SQL. Advanced, MPP, elastic query engine and analytic database for enterprises.
-	* [Clickhouse](https://github.com/ClickHouse/ClickHouse) ClickHouse is an open-source column-oriented database management system that allows generating analytical data reports in real time.
-	* [Hive](https://hive.apache.org) Data warehouse software facilitates querying and managing large datasets residing in distributed storage.
-	* [Kylin](http://kylin.apache.org/) An open source distributed analytical engine designed to provide OLAP (Online Analytical Processing) capability in the big data era
-	* [Pinot](https://pinot.apache.org/) Pinot is a realtime distributed OLAP datastore, which is used at LinkedIn to deliver scalable real time analytics with low latency
+* [GreenPlum](https://github.com/greenplum-db/gpdb) The Greenplum Database (GPDB) is an advanced, fully featured, open source data warehouse. It provides powerful and rapid analytics on petabyte scale data volumes.
+* [Snappydata](https://github.com/SnappyDataInc/snappydata) SnappyData: OLTP + OLAP Database built on Apache Spark
+* [Hawk](http://hawq.apache.org/) Apache Hadoop Native SQL. Advanced, MPP, elastic query engine and analytic database for enterprises.
+* [Clickhouse](https://github.com/ClickHouse/ClickHouse) ClickHouse is an open-source column-oriented database management system that allows generating analytical data reports in real time.
+* [Hive](https://hive.apache.org) Data warehouse software facilitates querying and managing large datasets residing in distributed storage.
+* [Kylin](http://kylin.apache.org/) An open source distributed analytical engine designed to provide OLAP (Online Analytical Processing) capability in the big data era
+* [Pinot](https://pinot.apache.org/) Pinot is a realtime distributed OLAP datastore, which is used at LinkedIn to deliver scalable real time analytics with low latency
 
 
 # NoSQL Databases
@@ -209,9 +207,10 @@ Index
 
 
 
-# Cluster Coordination & Service Discovery
+# Cluster Management, Coordination & Service Discovery
 * [Zookeeper](https://zookeeper.apache.org/) A centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services
 * [Consul](https://github.com/hashicorp/consul) Consul is a tool for service discovery and configuration. Consul is distributed, highly available, and extremely scalable.
+* [Helix](http://helix.apache.org/)Apache Helix is a generic cluster management framework used for the automatic management of partitioned, replicated and distributed resources hosted on a cluster of nodes.
 
 
 # Containerization
@@ -243,7 +242,8 @@ Index
 
 
 
-Inspired by this [awesome data engineering](https://github.com/igorbarinov/awesome-data-engineering) .
+
+Inspired and extended from this [awesome data engineering](https://github.com/igorbarinov/awesome-data-engineering) .
 
 ## License
 
